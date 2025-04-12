@@ -1,19 +1,20 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.title{
-    
-    padding:5rem 0;
-    
+.title {
+
+    padding: 5rem 0;
+
 }
 
-h1,h2{
-    text-align:center;
-    background-color:rgba(19, 17, 17, 0.2);
-    color:#fff;
+h1,
+h2 {
+    text-align: center;
+    background-color: rgba(19, 17, 17, 0.2);
+    color: #fff;
 }
 
 /* h2{
@@ -22,47 +23,54 @@ h1,h2{
     padding:10px 0px;
 } */
 
-.buttonsection{
-      
-        display: flex;
-        padding:2rem 1rem;
-        
+.buttonsection {
+
+    display: flex;
+    padding: 2rem 1rem;
+
 }
-.Rgbsec,.hexcode{
-    
+
+.Rgbsec,
+.hexcode {
+
     background-color: transparent;
 }
-#backgroundColor,#hexbackgroundColor{
-    border:0;
-    border-radius:5px;
-    background-color:#fff;
-    padding:10px 5px;
-    font-size:17px;
+
+#backgroundColor,
+#hexbackgroundColor {
+    border: 0;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 10px 5px;
+    font-size: 17px;
     flex-basis: 70%;
-    border-top-right-radius:0px;
-    border-bottom-right-radius:0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 
-#bgChangebtn,#hexbgChangebtn{
-    border:0;
-    border-radius:5px;
-    padding:6px 10px;
-    font-size:18px;
-    cursor:pointer;
-    flex-basis: 30%;
-    border-top-left-radius:0px;
-    border-bottom-left-radius:0px;
-    transition:.5s;
-}
-#bgChangebtn:hover{
-   background-color:#1f0707;
-    color:#fff;
-}
-#hexbgChangebtn:hover{
-   background-color:#1f0707;
-    color:#fff;
+.bgChangebtn,
+.hexbgChangebtn {
+    border: 0;
+
+    padding: 6px 10px;
+    font-size: 18px;
+    cursor: pointer;
+    flex-basis: 15%;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    transition: .5s;
 }
 
-.hexcode{
-    margin:10px 0px;
+.bgChangebtn:hover {
+    background-color: #1f0707;
+    color: #fff;
+}
+
+.hexbgChangebtn:hover {
+    background-color: #1f0707;
+    color: #fff;
+}
+
+.hexcode {
+    margin: 10px 0px;
 }
