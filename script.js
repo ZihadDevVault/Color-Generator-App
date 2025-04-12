@@ -4,7 +4,9 @@ let HexGeneratorButton = document.getElementById('hexbgChangebtn')
 let hexCopyButton = document.getElementById('hexColorCopy')
 let ShowColorRgbCode = document.getElementById('backgroundColor');
 let ShowColorHexCode = document.getElementById('hexbackgroundColor');
-let DocBody = document.getElementsByTagName('body')[0]
+let Toast=document.getElementsByClassName('toast')[0];
+let ToastMsg=document.getElementById('toastMsg');
+let DocBody = document.getElementsByTagName('body')[0];
 
 // ColorGenerator Section 
 
@@ -34,6 +36,12 @@ function ColorChange(CButton) {
 function CopyColor(Button, FromData) {
     Button.addEventListener('click', function () {
         navigator.clipboard.writeText(FromData.value)
+        ToastMsg.innerHTML=`${FromData.value} is Copied!`
+        ToastMsg.style.color=FromData.value;
+        Toast.style.display='flex';
+            setTimeout(()=>{
+                Toast.style.display='none';
+            },2000)
     })
 }
 

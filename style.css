@@ -74,3 +74,20 @@ h2 {
 .hexcode {
     margin: 10px 0px;
 }
+
+.toast{
+    height:50px;
+    width:300px;
+    background-color:#0c801b;
+    display:none;
+    align-items: center;
+    justify-content:center;
+    position:absolute;
+    top:0px;
+    right:0px;
+}
+
+.toast h3{
+    
+    color:#fff;
+}
