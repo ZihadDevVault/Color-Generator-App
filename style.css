@@ -10,19 +10,29 @@
     
 }
 
-h1{
+h1,h2{
     text-align:center;
     background-color:rgba(19, 17, 17, 0.2);
-    color:#351010;
+    color:#fff;
 }
 
+/* h2{
+    color:#fff;
+    background-color:transparent;
+    padding:10px 0px;
+} */
+
 .buttonsection{
-        background-color: #421b1b;
+      
         display: flex;
-        padding:5rem 1rem;
+        padding:2rem 1rem;
         
 }
-#backgroundColor{
+.Rgbsec,.hexcode{
+    
+    background-color: transparent;
+}
+#backgroundColor,#hexbackgroundColor{
     border:0;
     border-radius:5px;
     background-color:#fff;
@@ -33,7 +43,7 @@ h1{
     border-bottom-right-radius:0px;
 }
 
-#bgChangebtn{
+#bgChangebtn,#hexbgChangebtn{
     border:0;
     border-radius:5px;
     padding:6px 10px;
@@ -47,4 +57,12 @@ h1{
 #bgChangebtn:hover{
    background-color:#1f0707;
     color:#fff;
+}
+#hexbgChangebtn:hover{
+   background-color:#1f0707;
+    color:#fff;
+}
+
+.hexcode{
+    margin:10px 0px;
 }
